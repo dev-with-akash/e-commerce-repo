@@ -42,5 +42,6 @@ public class ProductsController {
         service.deleteProduct(id);
         return ResponseEntity.noContent().build();
     }
+
 }
 
